@@ -1,0 +1,14 @@
+@import '../imports/colors';
+@import "../blocks/block_one";
+@import "../blocks/block_two";
+@import "../blocks/block_three";
+
+.hero {
+  font-size: 28px;
+  background: $c-red;
+  color: $c-white;
+  width: 100%;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+}

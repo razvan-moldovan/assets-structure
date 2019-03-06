@@ -1,0 +1,32 @@
+.block__one {
+  display: inline-block;
+  background: #8285c4;
+  width: 100px;
+  height: 100px;
+}
+
+.block__two {
+  display: inline-block;
+  background: #333;
+  color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.block__three {
+  display: inline-block;
+  background: #f9d62f;
+  color: white;
+  width: 300px;
+  height: 300px;
+}
+
+.hero {
+  font-size: 28px;
+  background: #e04951;
+  color: #fff;
+  width: 100%;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+}

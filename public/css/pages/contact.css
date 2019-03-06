@@ -1,0 +1,7 @@
+.block__two {
+  display: inline-block;
+  background: #333;
+  color: white;
+  width: 200px;
+  height: 200px;
+}

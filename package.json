@@ -1,0 +1,26 @@
+{
+  "name": "assets-structure",
+  "version": "1.0.0",
+  "description": "Assets structure is a proposal for structuring the assets on complex projets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve -c serve.json",
+    "build:scss": "node-sass ./assets/scss/ -o ./public/css/ --importer=node_modules/node-sass-tilde-importer --output-style expanded",
+    "watch:scss": "node-sass -r -w ./assets/scss/ -o ./public/css/ --importer=node_modules/node-sass-tilde-importer --output-style expanded",
+    "copy:html": "copyfiles -u 1 ./src/*.html ./public/",
+    "watch": "npm run watch:scss && npm run copy:html"
+  },
+  "author": "Razvan Moldovan",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "node-sass-tilde-importer": "^1.0.2",
+    "sass": "^1.17.2",
+    "serve": "^10.1.2"
+  }
+}

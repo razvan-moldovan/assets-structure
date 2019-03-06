@@ -1,0 +1,16 @@
+.header {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+  width: 100%;
+  display: block;
+  background-color: $c-green;
+
+  &__layout {
+    color: $c-white;
+  }
+  &__title {
+    font-size: 18px;
+    padding: 7px;
+  }
+}

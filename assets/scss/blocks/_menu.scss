@@ -1,0 +1,51 @@
+
+.menu {
+  background-color: $c-lila;
+  color: $c-white;
+  font-weight: bold;
+  border-bottom: 5px solid $c-blue;
+
+  &__layout {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+  }
+
+  &__item {
+    flex: 1 1 200px;
+
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat, Arial, sans-serif;
+
+    &_state {
+      &_current {
+        background-color: $c-blue;
+      }
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+
+    text-decoration: none;
+
+    &, &:visited {
+      color: $c-white;
+    }
+
+    &:hover, &:focus, &:active {
+      background-color: $c-blue;
+      color: $c-yellow;
+    }
+  }
+}
